@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Light Theme -->
+    <style name="Theme.NoteApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light Theme özelleştirme -->
+        <item name="android:statusBarColor">@color/button_background</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- Light mode için ikonlar koyu olur -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>
